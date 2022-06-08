@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <h1>
+        <a href="index.html">Uppercase</a>
+    </h1>
+    <main>
+        <div class="imagen img2">
+            <h2 style="text-align: center; color: white; margin-top: 3rem; font-size: xx-large; font-weight: bolder;">¡Uppercase ya esta aqui!</h2>
+        </div>
+        <form action="registrado.php" method="POST">
+            <div class="titulo">
+                <h2 style="font-size: 3.2rem; font-weight: bolder;">Registrate</h2>
+            </div>
+    
+            <div class="campo">
+                <input type="text" name="user" required placeholder="Nombre de Usuario">
+            </div>
+            
+            <div class="campo">
+                <input type="email" name="mail" required placeholder="Email">
+            </div>
+    
+            <div class="campo">
+                <input type="password" name="pass" required placeholder="Contraseña">
+            </div>
+        
+            <div class="campo">
+                <input type="password" name="conf_pass" required placeholder="Confirmar Contraseña">
+            </div>
+            
+            <div class="boton">
+                <input type="submit" value="Registrarse" name="sign_in">
+            </div>
+            
+            <div class="enlace">
+                <p>¿Ya tienes una cuenta?</p>
+                <a href="index.html">Inicia Sesión Aqui</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

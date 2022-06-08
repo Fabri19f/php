@@ -1,0 +1,129 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(-10deg,#c850c0, #4158d0);
+    background-attachment: fixed;
+}
+h1{ 
+    margin-top: 2rem; 
+    margin-left: 7rem; 
+    width: min-content;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+main{
+    display: flex;
+    width: min-content;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.imagen{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35rem;
+    background-position: center;
+    border-radius: 10px 0 0 10px;
+}
+.img1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img1.jpg");
+}
+.img2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img2.jpg");
+}
+.imagen h2{
+    transition: all 0.1s;
+}
+.imagen h2:hover{
+    transform: scale(1.04);
+}
+.titulo{
+    text-align: center;
+    margin-top: 2.5rem;
+    transition: all 0.1s;
+    background: linear-gradient(-10deg,#c850c0, #4158d0);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.titulo:hover{
+    transform: scale(1.06);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blanco);
+    width: 45rem;
+    height: auto;
+    padding-bottom: 4rem;
+    border-radius: 0 10px 10px 0;
+}
+.campo{
+    display: flex;
+    margin: 2rem;
+    width: 37rem;
+    justify-content: center;
+}
+.campo input{
+    outline: none;
+    border: none;
+    border: 1px solid;
+    border-color: #A6ACAF;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 72%;
+    transition: all 0.1s;
+    margin-bottom: 0.7rem;
+}
+.campo input:hover{
+    transform: scale(1.04);
+}
+.boton{
+    display: flex;
+    margin-top: 2rem;
+    width: 32rem;
+    justify-content: center;
+}
+.enlace{
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    transition: all 0.1s;
+}
+.enlace:hover{
+    transform: scale(1.04);
+}
+.boton input{
+    all: unset;
+    border-radius: 5px;
+    padding: 1.5rem 4rem;
+    background: linear-gradient(-10deg,#c850c0, #4158d0);
+    color: var(--blanco);
+    font-weight: 600;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.boton input:hover{
+    transform: scale(1.06);
+}
